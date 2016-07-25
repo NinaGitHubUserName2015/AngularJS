@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app = "HelloAngular">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div>
+	 		<p>名字 : <input type="text" ng-model="name"></p>
+	 		<h1>Hello {{name}}</h1>
+		</div>
+		<div ng-controller = "helloAngular">
+			<p>{{greeting.text}}, Angular</p>   <!-- 视图 -->
+		</div>	
+	</body>
+	<script src = "js/angular-1.5.7/angular.min.js"></script>
+	<!--script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script-->
+	<script src = "js/helloAngular.js"></script>
+</html>
